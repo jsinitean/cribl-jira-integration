@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "cribl-jira-integration",
+  "namespace": "",
+  "sfdcLoginUrl": "https://mycompany-4b8-dev-ed.develop.my.salesforce.com",
+  "sourceApiVersion": "62.0"
+}
