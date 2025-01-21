@@ -1,0 +1,9 @@
+<apex:page standardController="Case" extensions="JIRAIssueController" action="{!createIssue}">
+    <apex:form>
+        <apex:pageMessages />
+        <apex:outputPanel>
+            <h1>Jira Issue Creation</h1>
+            <p>Creating Jira issue for Case: {!Case.Subject}</p>
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>
